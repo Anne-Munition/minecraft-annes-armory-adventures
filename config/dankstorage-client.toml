@@ -4,8 +4,8 @@
 	preview = true
 	#X position of preview
 	#Range: -10000 ~ 10000
-	preview_x = -140
+	preview_x = -185
 	#Y position of preview
 	#Range: -10000 ~ 10000
-	preview_y = -25
+	preview_y = -30
 

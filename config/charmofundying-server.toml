@@ -5,5 +5,5 @@ yOffset = 0.0
 #Range: -100.0 ~ 100.0
 xOffset = 0.0
 #If enabled, renders the equipped totem on players.
-renderTotem = true
+renderTotem = false
 

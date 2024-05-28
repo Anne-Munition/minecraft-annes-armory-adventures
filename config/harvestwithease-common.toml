@@ -17,7 +17,7 @@ crops = []
 #Be aware that other mods may add other tiers and/or removing existing ones. Only the actual tiers available at runtime are allowed here.
 #When set to "none", the only value not in the tiers list, multi-harvest will be enabled without a tool too. Note that [require hoe] takes precedence.
 #The value in this config option can either be the name of the tier, e.g. "iron", or the id of the tier, e.g. "minecraft:iron".
-"multi-harvest starting tier" = "wood"
+"multi-harvest starting tier" = "diamond"
 #Starting multi-harvest area size (square side length).
 #The area is always a square centered on the right-clicked crop.
 #Setting this to "single" and [area increment step] to "none" will effectively disable multi-harvest.
@@ -25,7 +25,7 @@ crops = []
 #"medium" - medium harvest area size, a 3x3 square.
 #"large" - large harvest area size, a 5x5 square.
 #Allowed Values: SINGLE, MEDIUM, LARGE
-"starting harvest area size" = "SINGLE"
+"starting harvest area size" = "LARGE"
 #Increment step for the harvest area size with higher tool tiers.
 #Setting this to "none" and [starting harvest area size] to "single" will effectively disable multi-harvest.
 #"none" - no increment, the area stays the same (as defined by [starting harvest area size]) regardless of the tool used, if any.
